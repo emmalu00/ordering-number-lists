@@ -77,7 +77,7 @@ int main(int argc, char* argv[])
 
 /*
  * Sorts the lists in the matrix from least amount of elements
- * to greatest amount of elements.
+ * to greatest amount of elements, using selection sort.
  *
  * int** list: 2D jagged array thats holds the lists of numbers
  * length: number of lists in the matrix
@@ -116,7 +116,8 @@ void swapLists(int** list1, int** list2)
 }
 
 /*
- * Sorts the elements in the list from least to greatest
+ * Sorts the elements in the list from least to greatest,
+ * using selection sort.
  *
  * int* list: array thats holds the lists of numbers
  * length: number of elements in the list
