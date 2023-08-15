@@ -2,6 +2,8 @@
 This program takes an input text file as a command line argument that contains multiple lists of numbers. The program sorts the lists by length from least to greatest, and sorts the numbers in each list from least to greatest. The results of sorting are printed to the console.
 
 ## Running the Program
+_It is recommended to clone this repository to your local machine through VS Code._
+
 The program must be compiled through the command line with the following statement:
 
 `gcc orderlists.c`
