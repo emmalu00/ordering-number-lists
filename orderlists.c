@@ -1,6 +1,6 @@
 /*
  * Author: Emma Lucas
- * project2.c
+ * orderlists.c
  *
  * This program takes in multiple lists of numbers from a text file.
  * The program then sorts the lists by length from least to greatest, 
