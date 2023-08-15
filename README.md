@@ -1,21 +1,23 @@
-# Order-Numbers
-
-## Project Description
-This is a program in C that takes an input file as a command line argument. The input file contains several lists of numbers, each on separate lines. The program reorders these lists by size (smallest number of elements to most elements), and for each list, it sorts the numbers from least to greatest. 
+## About
+This program takes an input text file as a command line argument that contains multiple lists of numbers. The program sorts the lists by length from least to greatest, and sorts the numbers in each list from least to greatest. The results of sorting are printed to the console.
 
 ## Running the Program
-The input file will be taken as a command like argument. If the user does not enter a filename as a command line argument, the program will produce an error message and exit.
+The program must be compiled through the command line with the following statement:
 
-If you are using a Windows system, your program should then run with the statement:
-> `./a.exe inputFile`
+`gcc orderlists.c`
 
-If you are using a Linux/Unix/Mac system, your program should run with the statement:
-> `./a.out inputFile`
+The program must then be run through the command line with the following statement:
 
-## Program Structure
-In addition to the main method, the program contains the following separate functions:
-* Sorting all the lists by length
-* Helper method to swap lists
-* Sorting all the elements in each list
-* Helper method to swap elements
-* Printing a list
+Windows system:
+
+`./a.exe <inputFileName.txt>`
+
+Linux/Unix/Mac system:
+
+`./a.out <inputFileName.txt>`
+
+where _inputFileName.txt_ is the input text file. If the user does not enter a filename as a command line argument, the program will produce an error message and exit.
+
+The file **_list.txt_** is provided as an example test file for running this program. All input files should be formatted exactly as **_list.txt_**.
+
+
