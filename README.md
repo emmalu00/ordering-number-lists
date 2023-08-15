@@ -18,7 +18,7 @@ Linux/Unix/Mac system:
 
 `./a.out <filename.txt>`
 
-where _filename.txt_ is the input text file. If the user does not enter a filename as a command line argument, the program will produce an error message and exit.
+where **_filename.txt_** is the input text file. If the user does not enter a filename as a command line argument, the program will produce an error message and exit.
 
 The file **_list.txt_** is provided as an example test file for running this program. All input files should be formatted exactly as **_list.txt_**.
 
